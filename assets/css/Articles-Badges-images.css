@@ -1,0 +1,7 @@
+.fit-cover {
+  object-fit: cover;
+  position: relative;
+  display: block;
+  width: 240px;
+}
+
