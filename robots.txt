@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /logout/
+Disallow: /contact-us.html
+Disallow: /terms-and-conditions.html
+Disallow: /privacy-policy.html
+
+Sitemap: https://www.neelanjan-chakraborty.github.io/sitemap.xml
