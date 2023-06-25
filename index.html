@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-bs-theme="light" lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -21,180 +21,285 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aguafina+Script&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arizonia&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baumans&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Beau+Rivage&amp;subset=latin-ext&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700">
     <link rel="stylesheet" href="assets/css/swiper-icons.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bs-theme-overrides.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/Articles-Badges-images.css">
+    <link rel="stylesheet" href="assets/css/Fixed-navbar-starting-with-transparency-styles.css">
+    <link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css">
     <link rel="stylesheet" href="assets/css/Lightbox-Gallery-No-Gutters-baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/Navbar-Right-Links-Dark-icons.css">
+    <link rel="stylesheet" href="assets/css/Profile-with-data-and-skills.css">
     <link rel="stylesheet" href="assets/css/Projects-Grid-Horizontal-images.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider-swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="assets/css/Skill-skill.css">
+    <link rel="stylesheet" href="assets/css/Skill.css">
+    <link rel="stylesheet" href="assets/css/typing.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
+    <link rel="stylesheet" href="assets/css/Fixed-navbar-starting-with-transparency-colors.css">
+    <link rel="stylesheet" href="assets/css/MySkills-F19687.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Footer-.css">
+    <link rel="stylesheet" href="assets/css/Social-Menu-Sticky.css">
 </head>
 
 <body id="page-top">
-    <nav class="navbar navbar-light navbar-expand-md py-3">
+    <nav class="navbar navbar-light navbar-expand-md py-3" style="background: rgb(255,255,255);border-bottom: 10.4px ridge var(--swiper-theme-color);height: 76.4px;">
         <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span style="font-family: 'Beau Rivage', serif;font-weight: bold;font-size: 30px;height: 28px;">Neelanjan Chakraborty</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-2">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#AboutMe">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#Skill">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Publicatons</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Refference</a></li>
+                    <li class="nav-item"><a class="nav-link" data-bss-hover-animate="pulse" href="#AboutMe" style="font-family: Baumans, serif;">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link active" data-bss-hover-animate="pulse" href="#Skill" style="color: #4e4e4e;">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" data-bss-hover-animate="pulse" href="#Projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" data-bss-hover-animate="pulse" href="#Publications">Publicatons</a></li>
+                    <li class="nav-item"><a class="nav-link" data-bss-hover-animate="pulse" href="#Certifications">Certifications</a></li>
                 </ul><a class="btn btn-primary ms-md-2" role="button" href="#">Download CV</a>
             </div>
         </div>
     </nav>
-    <header class="d-flex masthead" style="background: url(&quot;assets/img/Neelanjan-Chakraborty.png&quot;) center / cover no-repeat;">
+    <div id="fixed-social">
+        <div><a class="fixed-facebook" href="https://www.facebook.com/neelanjanchakraborty.1/" target="_blank" style="background: var(--swiper-theme-color);"><i class="fa fa-facebook"></i><span style="background: var(--swiper-theme-color);">&nbsp;Facebook</span></a></div>
+        <div><a class="fixed-instagram" href="https://www.instagram.com/n.e_e.l/" target="_blank" style="background: rgb(171,0,62);"><i class="fa fa-instagram"></i><span style="background: rgb(171,0,62);">&nbsp;Instagram</span></a></div>
+        <div><a class="fixed-twitter" href="https://twitter.com/NeelanjanChakr7" target="_blank" style="background: rgb(69,221,255);"><i class="fa fa-twitter"></i><span style="background: rgb(69,221,255);">&nbsp;Twitter</span></a></div>
+        <div><a class="fixed-linkedin" href="https://www.linkedin.com/in/neelanjanchakraborty/" target="_blank"><i class="fa fa-linkedin"></i><span>&nbsp;Linkedin</span></a></div>
+        <div><a class="fixed-youtube" href="https://github.com/Neelanjan-chakraborty" target="_blank" style="background: rgb(45,45,45);"><i class="fa fa-github"></i><span style="background: rgb(45,45,45);">&nbsp;Github</span></a></div>
+    </div>
+    <header class="d-flex masthead" id="header" style="background: url(&quot;assets/img/Neelanjan-Chakraborty.png&quot;) center / cover no-repeat;">
         <div class="container my-auto text-center" style="transform: translateX(3px) translateY(103px);">
-            <h1 class="text-center shadow-sm d-inline-flex mb-1" style="color: var(--bs-blue);border-style: none;text-shadow: 0px 0px 11px var(--bs-black);filter: contrast(99%) saturate(156%);backdrop-filter: opacity(0.76) blur(4px) brightness(88%) contrast(64%);-webkit-backdrop-filter: opacity(0.76) blur(4px) brightness(88%) contrast(64%);">Neelanjan Chakraborty</h1>
-            <h3 class="mb-5"></h3><a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#about" style="border-radius: 37px;margin: 10px;">Download Resume</a><a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="mailto:neelanjanchakraborty231@gmail.com" style="border-radius: 37px;">Contact Me</a>
-            <div class="overlay"></div>
+            <div class="container1" style="filter: blur(0px);">
+                <p style="font-size: 58px;font-family: Baumans, serif;filter: blur(0px);backdrop-filter: blur(43px) brightness(63%);border-color: rgb(255,255,255);color: rgb(255,255,255);">Hello I am <span class="typed-text"></span><span class="cursor"></span></p>
+            </div>
+            <h3 class="mb-5"></h3><a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#about" style="border-radius: 37px;margin: 10px;font-family: Baumans, serif;">Download Resume</a><a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="mailto:neelanjanchakraborty231@gmail.com" style="border-radius: 37px;font-family: Baumans, serif;">Contact Me</a>
         </div>
     </header>
     <section id="AboutMe" class="AboutMe" style="transform-origin: top;">
-        <div class="container-fluid py-4 py-xl-5" id="AboutMe">
+        <div class="container-fluid py-4 py-xl-5" id="AboutMe" style="color: rgb(0,0,0);height: 293.663px;">
             <div class="row mb-5">
                 <div class="col-auto col-md-9 col-xl-8 text-center mx-auto">
-                    <h2>About Me</h2>
-                    <p class="lead fw-normal text-center flex-fill"><br>I am an aspiring data scientist with a passion for leveraging data-driven insights to solve complex problems. With my expertise in areas such as machine learning, statistical analysis, and data visualization, I strive to extract actionable intelligence from vast amounts of data.<br>Born on 2nd March 2001, I developed an early interest in the intersection of mathematics, programming, and data analysis. I embarked on a journey to acquire knowledge and skills in the field of data science, ultimately aiming to contribute to advancements in various domains.</p>
+                    <h2 style="font-family: Baumans, serif;">About Me</h2>
+                    <p class="lead fw-normal text-center flex-fill" style="font-family: Baumans, serif;text-align: left;"><br>I am an aspiring data scientist with a passion for leveraging data-driven insights to solve complex problems. With my expertise in areas such as machine learning, statistical analysis, and data visualization, I strive to extract actionable intelligence from vast amounts of data.<br>Born on 2nd March 2001, I developed an early interest in the intersection of mathematics, programming, and data analysis. I embarked on a journey to acquire knowledge and skills in the field of data science, ultimately aiming to contribute to advancements in various domains.</p>
                 </div>
             </div>
         </div>
-        <div class="container py-4 py-xl-5" style="transform: translateY(-90px);color: rgb(255,255,255);background: var(--bs-white);">
+        <div class="container py-4 py-xl-5" style="border-radius: 4px;">
             <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
-                <div class="col">
-                    <div class="card" style="background: rgb(0,0,0);">
-                        <div class="card-body p-4">
-                            <h4 class="text-center card-title">Academic Background</h4>
-                            <p class="text-center card-text">I hold a Degree in Artificial Intelligence and Data Science from Centurion University of Technology. During my academic journey, I focused on courses and projects related to data analysis, machine learning, and statistical modeling. I honed my skills in programming languages such as Python, R, and SQL, demonstrating a strong understanding of data manipulation and analysis techniques.</p>
+                <div class="col" style="border-radius: 8px;">
+                    <div class="card" data-bss-hover-animate="pulse" style="box-shadow: 0px 0px 14px;border-radius: 28px;"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;border-top-left-radius: 26px;border-top-right-radius: 26px;" src="assets/img/assets/Firefly%20open%20book%20graduation%20cap%20or%20a%20stack%20of%20books%201296.jpg">
+                        <div class="card-body p-4" style="color: rgb(255,255,255);background: #000000;border-radius: -8px;border-bottom-left-radius: 26px;border-bottom-right-radius: 25px;">
+                            <h4 class="card-title" style="font-family: Baumans, serif;"><strong>Academic Background</strong></h4>
+                            <p class="card-text">I hold a Degree in Artificial Intelligence and Data Science from Centurion University of Technology. During my academic journey, I focused on courses and projects related to data analysis, machine learning, and statistical modeling. I honed my skills in programming languages such as Python, R, and SQL, demonstrating a strong understanding of data manipulation and analysis techniques.</p>
+                            <div class="d-flex"></div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="background: rgb(0,0,0);">
-                        <div class="card-body p-4">
-                            <h4 class="text-center card-title">Professional Experience</h4>
-                            <p class="text-center card-text">I have gained practical experience in the data science field through internships and research projects. I have collaborated with diverse teams, leveraging data-driven approaches to solve real-world problems. Notably, I contributed to the development of the Kobold AI API - a Realtime API to communicate with Kobold AI GPT and worked on Automatic AI-Based Farm Moisture Analyzer.</p>
+                    <div class="card" data-bss-hover-animate="pulse" style="box-shadow: 0px 0px 14px;border-radius: 31px;"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;border-top-left-radius: 26px;border-top-right-radius: 26px;" src="assets/img/assets/Firefly%20Image%20of%20a%20winding%20road%20leading%20into%20a%20map%20with%20markers%20indicating%20progress%20and%20milestones%20.jpg">
+                        <div class="card-body p-4" style="background: #000000;border-width: 8px;border-color: rgb(255,255,255);border-radius: 0;color: rgb(255,255,255);border-bottom-left-radius: 26px;border-bottom-right-radius: 26px;">
+                            <h4 class="card-title" style="font-family: Baumans, serif;"><strong>Professional Experience</strong></h4>
+                            <p class="card-text">I have gained practical experience in the data science field through internships and research projects. I have collaborated with diverse teams, leveraging data-driven approaches to solve real-world problems. Notably, I contributed to the development of the Kobold AI API - a Realtime API to communicate with Kobold AI GPT and worked on Automatic AI-Based Farm Moisture Analyzer.</p>
+                            <div class="d-flex"></div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="background: rgb(0,0,0);">
-                        <div class="card-body p-4">
-                            <h4 class="text-center card-title">Personal Interests</h4>
-                            <p class="text-center card-text">In my free time, I enjoy staying up-to-date with the latest developments in data science and technology. I actively participate in community initiatives and organizations, such as leading workshops on introductory data science concepts for aspiring students. I am also an avid traveler, exploring new places and cultures to broaden my horizons and gain fresh perspectives.</p>
+                    <div class="card" data-bss-hover-animate="pulse" style="background: #21252900;box-shadow: 0px 0px 14px;border-radius: 28px;"><img class="card-img-top w-100 d-block fit-cover" style="border-top-left-radius: 26px;border-top-right-radius: 26px;width: 200px;height: 200px;border-top-style: none;border-top-color: rgb(255,0,0);border-right-style: none;border-right-color: rgb(255,0,0);border-left-style: none;border-left-color: rgb(255,0,0);" src="assets/img/assets/Firefly%20travelling%20phtography%20%20cycling%20riding%20playing%20video%20games%2090121.jpg" width="199" height="199">
+                        <div class="card-body p-4" style="color: rgb(255,255,255);background: #000000;border-bottom-right-radius: 26px;border-bottom-left-radius: 26px;border-style: solid;border-color: rgb(255,0,0);border-top-style: none;border-right-style: none;border-bottom-style: none;border-left-style: none;">
+                            <h4 class="card-title" style="font-family: Baumans, serif;"><strong>Personal Interests</strong></h4>
+                            <p class="card-text">In my free time, I enjoy staying up-to-date with the latest developments in data science and technology. I actively participate in community initiatives and organizations, such as leading workshops on introductory data science concepts for aspiring students. I am also an avid traveler, exploring new places and cultures to broaden my horizons and gain fresh perspectives.</p>
+                            <div class="d-flex"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="Skill" class="Skill" style="padding: 3px;margin: 0;">
-        <div class="simple-slider" style="padding: -28px;margin: -23px;">
+    <section class="text-center d-flex" id="Skill">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col" style="text-align: center;">
+                    <h1 style="font-family: Baumans, serif;">Skills</h1><p>
+          <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&amp;logo=c%2B%2B&amp;logoColor=white" alt="C++"></ul></div>
+                <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&amp;logo=css3&amp;logoColor=white" alt="CSS3"></ul></div>
+                 <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&amp;logo=c&amp;logoColor=white" alt="C"></ul></div> 
+                 <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&amp;logo=javascript&amp;logoColor=%23F7DF1E" alt="JavaScript"></ul></div> 
+                 <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&amp;logo=java&amp;logoColor=white" alt="Java"></ul></div>
+                  <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&amp;logo=php&amp;logoColor=white" alt="PHP"></ul></div> 
+                  <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&amp;logo=r&amp;logoColor=white" alt="R"></ul></div> 
+                  <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&amp;logo=python&amp;logoColor=ffdd54" alt="Python"></ul></div>
+                   <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&amp;logo=mysql&amp;logoColor=white" alt="MySQL"></ul></div>
+                    <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&amp;logo=Adobe%20After%20Effects&amp;logoColor=white" alt="Adobe After Effects"></ul></div>
+                     <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/adobeillustrator-%23FF9A00.svg?style=for-the-badge&amp;logo=adobeillustrator&amp;logoColor=white" alt="Adobe Illustrator"></ul></div>
+                      <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&amp;logo=Adobe%20XD&amp;logoColor=#FF61F6" alt="Adobe XD"></ul></div> 
+                      <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/adobephotoshop-%2331A8FF.svg?style=for-the-badge&amp;logo=adobephotoshop&amp;logoColor=white" alt="Adobe Photoshop"></ul></div>
+                      <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&amp;logo=Adobe%20Lightroom&amp;logoColor=white" alt="Adobe Lightroom"></ul></div> 
+                      <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&amp;logo=blender&amp;logoColor=white" alt="Blender"></ul></div>
+                      <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&amp;logo=figma&amp;logoColor=white" alt="Figma"></ul></div>
+                      <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&amp;logo=Adobe%20Premiere%20Pro&amp;logoColor=white" alt="Adobe Premiere Pro"></ul></div>
+                      <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&amp;logo=numpy&amp;logoColor=white" alt="NumPy"></ul></div>
+                      <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&amp;logo=pandas&amp;logoColor=white" alt="Pandas"></ul></div>
+                      <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&amp;logo=plotly&amp;logoColor=white" alt="Plotly"></ul></div>
+                      <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&amp;logo=scipy&amp;logoColor=%white" alt="SciPy"></ul></div>
+                      <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&amp;logo=scikit-learn&amp;logoColor=white" alt="scikit-learn"></ul></div>
+                      <div class="skill-logo"><ul><img class="skill-badge" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&amp;logo=linux&amp;logoColor=black" alt="LINUX"></ul></div></p></ul></div></p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="simple-slider" style="background: #ffffff;position: relative;display: inline;">
             <div class="swiper-container">
-                <div class="d-flex swiper-wrapper" style="height: 698px;">
-                    <div class="d-block swiper-slide" style="color: rgb(0,0,0);padding: 20px;">
-                        <section class="d-block py-4 py-xl-5">
-                            <div class="container">
-                                <div class="row mb-5">
-                                    <div class="col-md-8 col-xl-6 text-center mx-auto">
-                                        <h1>IDEs</h1>
-                                        <p>Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis nostra nunc. Vestibulum dui eget ultrices.</p>
-                                    </div>
-                                </div>
-                                <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3" data-bss-baguettebox="">
-                                    <div class="col" style="padding: 0px;margin: -96px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/colab.png" width="200" height="113" style="width: 298px;height: 160.588px;margin: 64px;padding: -14px;padding-left: -28px;padding-right: 43px;"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/629b71d07c5cd817694c3226.png" style="width: 244.8px;height: 120.8px;"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/sublime_text.png" style="width: 203.663px;"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/PyCharm_Icon.svg.png"></a></div>
-                                </div>
+                <div class="d-inline-flex align-items-center align-content-center align-self-center m-auto swiper-wrapper" data-bs-theme="light">
+                    <div class="swiper-slide" style="padding: 27px;height: 512px;display: flex;border-radius: 43px;width: 354.6px;">
+                        <div class="container" style="display: inline;position: relative;">
+                            <h1 class="text-center" style="font-weight: bold;text-align: center;font-family: Baumans, serif;">Front End</h1>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">HTML</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);background: rgb(23,78,219);"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
                             </div>
-                        </section>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">CSS</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);width: 173.475px;background: rgb(32,233,185);"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
+                            </div>
+                            <div style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);" class="skills-container"></div>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">Java Script</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);background: rgb(255,214,0);width: 144.475px;"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;color: rgb(0,0,0);">90%</span></div>
+                            </div>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">Figma</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);width: 189.475px;"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="d-block float-none swiper-slide" style="color: rgb(0,0,0);padding: 20px;">
-                        <section class="py-4 py-xl-5" style="margin: 4px;">
-                            <div class="container text-center">
-                                <div class="row mb-5">
-                                    <div class="col-md-8 col-xl-6 text-center mx-auto">
-                                        <h1>Front End and Web</h1>
-                                        <p>Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis nostra nunc. Vestibulum dui eget ultrices.</p>
-                                    </div>
-                                </div>
-                                <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3" data-bss-baguettebox="">
-                                    <div class="col" style="padding: 0px;margin: -96px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/HTML5_logo_and_wordmark.svg.bak.png" width="200" height="113" style="width: 222px;height: 179.588px;margin: 64px;padding: -14px;padding-left: -28px;padding-right: 43px;"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/html5-logo-css-logo-png-transparent-svg-vector-bie-supply-9.bak.png" style="width: 251.8px;height: 162.8px;"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/nodejs-1-logo.bak.png" style="width: 203.663px;"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/JavaScript-logo.bak.png"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/1667px-Figma-logo.svg.png" style="width: 128.8px;height: 125.1625px;"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/React_logo_wordmark%20(1).bak.png" style="width: 273.8px;height: 102.1625px;"></a></div>
-                                </div>
+                    <div class="swiper-slide" style="padding: 27px;height: 512px;display: flex;border-radius: 43px;width: 354.6px;">
+                        <div class="container" style="display: inline;position: relative;">
+                            <h1 class="text-center" style="font-weight: bold;text-align: center;font-family: Baumans, serif;">Skills</h1>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">Statistical analysis</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);background: rgb(23,78,219);"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
                             </div>
-                        </section>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">Machine learning algorithms</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);width: 286.475px;background: rgb(32,233,185);"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
+                            </div>
+                            <div style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);" class="skills-container"></div>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">Data visualization</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);background: rgb(255,214,0);width: 290.475px;"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;color: rgb(0,0,0);">90%</span></div>
+                            </div>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);"><span style="color: rgb(55, 65, 81); background-color: rgb(247, 247, 248);">Problem-solving</span></p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);width: 294.475px;"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
+                            </div>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);"><span style="color: rgb(55, 65, 81); background-color: rgb(247, 247, 248);">Critical Thinking</span></p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);width: 275.475px;background: rgb(175,82,76);"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="d-block float-none swiper-slide" style="color: rgb(0,0,0);padding: 20px;">
-                        <section class="py-4 py-xl-5" style="margin: 4px;">
-                            <div class="container">
-                                <div class="row mb-5">
-                                    <div class="col-md-8 col-xl-6 text-center mx-auto">
-                                        <h1>Machine Learning &amp; AI</h1>
-                                        <p>Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis nostra nunc. Vestibulum dui eget ultrices.</p>
-                                    </div>
-                                </div>
-                                <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3" data-bss-baguettebox="">
-                                    <div class="col" style="padding: 0px;margin: -96px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/scikit-learn.bak.png" width="200" height="113" style="width: 243px;height: 122.588px;margin: 64px;padding: -14px;padding-left: -28px;padding-right: 43px;"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/Tensorflow_logo.svg.bak.png" style="width: 120.8px;"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/logo.bak.png"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/Pandas_logo.svg.bak.png"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/1280px-Amazon_Web_Services_Logo.svg.bak.png" style="width: 141.8px;"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/Pytorch_logo.png" style="width: 203.8px;height: 63.1625px;"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/1280px-NumPy_logo_2020.svg.bak.png"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/tv8zrejyehjshagvxgt7.bak.png" style="height: 99.825px;width: 216.8px;"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/487px-OpenCV_Logo_with_text.bak.png" style="height: 132.825px;width: 147.8px;"></a></div>
-                                </div>
+                    <div class="swiper-slide" style="padding: 27px;height: 512px;display: flex;border-radius: 43px;width: 354.6px;">
+                        <div class="container" style="display: inline;position: relative;">
+                            <h1 class="text-center" style="font-weight: bold;text-align: center;font-family: Baumans, serif;">Softwares</h1>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">Python</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);background: rgb(23,78,219);"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
                             </div>
-                        </section>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">R</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);width: 286.475px;background: rgb(32,233,185);"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
+                            </div>
+                            <div style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);" class="skills-container"></div>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">SQL</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);background: rgb(255,214,0);width: 290.475px;"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;color: rgb(0,0,0);">90%</span></div>
+                            </div>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">Tableau</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);width: 294.475px;"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
+                            </div>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">Jupyter Notebook</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);width: 275.475px;background: rgb(175,82,76);"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="d-block float-none swiper-slide" style="color: rgb(0,0,0);padding: 20px;">
-                        <section class="py-4 py-xl-5">
-                            <div class="container">
-                                <div class="row mb-5">
-                                    <div class="col-md-8 col-xl-6 text-center mx-auto">
-                                        <h1>Data Visualization</h1>
-                                        <p>Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis nostra nunc. Vestibulum dui eget ultrices.</p>
-                                    </div>
-                                </div>
-                                <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3" data-bss-baguettebox="">
-                                    <div class="col" style="padding: 0px;margin: -96px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/Power-BI-Symbol.bak.png" width="200" height="113" style="width: 264px;height: 118.588px;margin: 67px;"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/Tableau-Logo.bak.png"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/matplot_title_logo.bak.png"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/Plotly-logo.bak.png"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/logo-tall-lightbg.svg" style="height: 203.312px;width: 168.825px;"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/Streamlit-logo-primary-colormark-darktext.bak.png" width="143" height="84" style="width: 228px;height: 139.113px;"></a></div>
-                                </div>
+                    <div class="swiper-slide" style="padding: 27px;height: 512px;display: flex;border-radius: 43px;width: 354.6px;">
+                        <div class="container" style="display: inline;position: relative;">
+                            <h1 class="text-center" style="font-weight: bold;text-align: center;font-family: Baumans, serif;"><span style="color: rgb(55, 65, 81); background-color: rgb(247, 247, 248);">Technologies</span></h1>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">Big Data platforms (Hadoop, Spark)</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);background: rgb(23,78,219);"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
                             </div>
-                        </section>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">Cloud computing platforms (AWS, GCP, Azure)</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);width: 286.475px;background: rgb(32,233,185);"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
+                            </div>
+                            <div style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);" class="skills-container"></div>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">Distributed computing frameworks (Apache Kafka, Apache HBase)</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);background: rgb(255,214,0);width: 290.475px;"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;color: rgb(0,0,0);">90%</span></div>
+                            </div>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);"></div>
+                        </div>
                     </div>
-                    <div class="d-block float-none swiper-slide" style="color: rgb(0,0,0);padding: 20px;">
-                        <section class="py-4 py-xl-5">
-                            <div class="container">
-                                <div class="row mb-5">
-                                    <div class="col-md-8 col-xl-6 text-center mx-auto">
-                                        <h1>Core Langauages</h1>
-                                        <p>Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis nostra nunc. Vestibulum dui eget ultrices.</p>
-                                    </div>
-                                </div>
-                                <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3" data-bss-baguettebox="">
-                                    <div class="col" style="padding: 0px;margin: -96px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/C_Logo.bak.png" width="200" height="113" style="width: 191px;height: 207.588px;margin: 67px;"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/Python-Logo.bak.png"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/Java-Logo.bak.png"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/ISO_C++_Logo.svg.bak.png" style="height: 221.2px;width: 186.85px;"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/JavaScript-logo.bak.png" style="width: 201.663px;"></a></div>
-                                    <div class="col" style="padding: 76px;margin: -91px 0px 0px;"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/R_logo.svg.bak.png" width="143" height="84" style="width: 206px;"></a></div>
-                                </div>
+                    <div class="swiper-slide" style="padding: 27px;height: 512px;display: flex;border-radius: 43px;width: 354.6px;">
+                        <div class="container" style="display: inline;position: relative;">
+                            <h1 class="text-center" style="font-weight: bold;text-align: center;font-family: Baumans, serif;"><span style="color: rgb(55, 65, 81); background-color: rgb(247, 247, 248);">Languages</span></h1>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">Python</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);background: rgb(23,78,219);"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
                             </div>
-                        </section>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">R</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);width: 213.475px;background: rgb(32,233,185);"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
+                            </div>
+                            <div style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);" class="skills-container"></div>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">SQL</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);background: rgb(255,214,0);width: 229.475px;"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;color: rgb(0,0,0);">90%</span></div>
+                            </div>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">C,C++</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);width: 294.475px;"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
+                            </div>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">Java</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);width: 237.475px;background: rgb(175,82,76);"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="padding: 27px;height: 512px;display: flex;border-radius: 43px;width: 354.6px;">
+                        <div class="container" style="display: inline;position: relative;">
+                            <h1 class="text-center" style="font-weight: bold;text-align: center;font-family: Baumans, serif;">Libraries</h1>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">NumPy, Pandas</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);background: rgb(23,78,219);"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
+                            </div>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">Scikit-Learn,Tensor Flow,Keras,PyTorch</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);width: 186.475px;background: rgb(32,233,185);"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
+                            </div>
+                            <div style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);" class="skills-container"></div>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">Matplotlib , PLotly, Seaborn ,PowerBI,Tabule, Streamlit</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);background: rgb(255,214,0);width: 292.475px;"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;color: rgb(0,0,0);">90%</span></div>
+                            </div>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">NLTK,<span style="color: rgb(32, 33, 36);">CoreNLP,TextBlob</span></p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);width: 224.475px;"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
+                            </div>
+                            <p style="font-size: 19px;text-align: center;font-family: Baumans, serif;color: var(--bs-emphasis-color);border-style: none;text-shadow: 0px 0px 13px var(--bs-secondary-color);">Hadoop, Apache Spark</p>
+                            <div class="skills-container" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;box-shadow: inset 0px 0px 14px var(--bs-secondary-color);">
+                                <div class="skills html" style="border-top-left-radius: 16px;border-bottom-left-radius: 16px;backdrop-filter: brightness(103%);filter: brightness(133%);box-shadow: inset 5px 2px 20px var(--bs-secondary-color);width: 132.475px;background: rgb(175,82,76);"><span style="text-align: center;text-shadow: 0px 0px 11px rgb(0,0,0);font-family: Baumans, serif;">90%</span></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -202,63 +307,158 @@
                 <div class="swiper-button-next"></div>
             </div>
         </div>
+        <div class="row" style="height: 116px;position: relative;display: flex;"></div>
     </section>
-    <section>
+    <section id="Projects" style="background: #000000;position: relative;display: flex;">
         <div class="container py-4 py-xl-5">
-            <div class="row mb-5">
+            <div class="row mb-5" style="background: rgba(0,0,0,0.06);color: rgb(255,255,255);">
                 <div class="col-md-8 col-xl-6 text-center mx-auto">
-                    <h2>Projects</h2>
-                    <p>This is My Project Gallery</p>
+                    <h2 style="font-family: Baumans, serif;color: rgb(255,255,255);">Projects</h2>
+                    <p class="w-lg-50" style="--bs-body-font-size: -2rem;">Introducing my personal project section, showcasing my creative endeavors and passion-driven work. Explore my diverse range of projects that reflect my unique skills, dedication, and innovative approach.</p>
                 </div>
             </div>
-            <div class="row gy-4 row-cols-1 row-cols-md-2">
-                <div class="col">
-                    <div class="d-flex flex-column flex-lg-row">
-                        <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" width="171" height="199" style="height: 198.875px;"></div>
-                        <div class="py-4 py-lg-0 px-lg-4" style="width: 373.712px;">
-                            <h4>Mood Melody</h4>
-                            <p>A Generative AI base App</p><button class="btn btn-primary" type="button">View Project</button>
+            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3" style="border-radius: 20px;">
+                <div class="col" style="padding: 24px;border-radius: 13px;">
+                    <div style="border-radius: 9px;"><img class="rounded img-fluid d-block w-100 fit-cover" data-bss-hover-animate="pulse" style="height: 291px;border-top-left-radius: 23px;border-top-right-radius: 38px;border-top-color: rgb(0,128,255);" src="assets/img/assets/Firefly%20Corona%20Virus%20dashboard%20UI%2036988.jpg" width="356" height="200">
+                        <div class="py-4" style="background: #ffffff;border-radius: -61px;border-bottom-right-radius: 30px;border-bottom-left-radius: 30px;text-align: center;font-family: Baumans, serif;">
+                            <h4 style="font-family: Baumans, serif;">Corona Dashboard</h4>
+                            <p>A Plotly Dashboard project that analyzes and visually presents COVID-19 data, providing insights into the pandemic. It offers interactive charts and graphs, empowering users to explore and understand the impact of the virus<br><br></p><button class="btn btn-primary" data-bss-hover-animate="pulse" type="button">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;View Project&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</button>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="d-flex flex-column flex-lg-row">
-                        <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"></div>
-                        <div class="py-4 py-lg-0 px-lg-4" style="width: 373.712px;">
-                            <h4>StudentMode</h4>
-                            <p>A Erp Website for students</p><button class="btn btn-primary" type="button">View Project</button>
+                <div class="col" style="border-radius: 13px;padding: 24px;">
+                    <div style="border-radius: 9px;"><img class="rounded img-fluid d-block w-100 fit-cover" data-bss-hover-animate="pulse" style="height: 291px;border-top-left-radius: 23px;border-top-right-radius: 38px;" src="assets/img/assets/Firefly%20Music%20and%20Mood%20Dashboard%20UI%2036988.jpg" width="356" height="200">
+                        <div class="py-4" style="background: #ffffff;border-radius: -61px;border-bottom-right-radius: 30px;border-bottom-left-radius: 30px;text-align: center;font-family: Baumans, serif;">
+                            <h4 style="font-family: Baumans, serif;">Mood Melody</h4>
+                            <p>Mood Melody is a personal project that combines Mood Detection and AI-generated Song Recommendations. It utilizes advanced algorithms to analyze users' moods and suggest personalized songs, creating a unique music experience tailored to individual emotions.</p><button class="btn btn-primary" data-bss-hover-animate="pulse" type="button">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;View Project&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</button>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="d-flex flex-column flex-lg-row">
-                        <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"></div>
-                        <div class="py-4 py-lg-0 px-lg-4" style="width: 373.712px;">
-                            <h4></h4>
-                            <h4>Corona VIrus Dashboard</h4>
-                            <p>Corona Virus Dashboard</p><button class="btn btn-primary" type="button">View Project</button>
+                <div class="col" style="border-radius: 13px;padding: 24px;">
+                    <div style="border-radius: 9px;"><img class="rounded img-fluid d-block w-100 fit-cover" data-bss-hover-animate="pulse" style="height: 291px;border-top-left-radius: 23px;border-top-right-radius: 38px;" src="assets/img/assets/Firefly%20Video%20Game%20dashboard%20UI%2086912.jpg" width="356" height="200">
+                        <div class="py-4" style="background: #ffffff;border-radius: -61px;border-bottom-right-radius: 30px;border-bottom-left-radius: 30px;text-align: center;font-family: Baumans, serif;">
+                            <h4 style="font-family: Baumans, serif;">Power Bi Game Dashboard</h4>
+                            <p>The Power BI Dashboard is a personal project that analyzes and showcases video game sales data. It provides insightful visualizations and statistics, allowing for comprehensive analysis of the gaming industry's sales performance.<br><br></p><button class="btn btn-primary" data-bss-hover-animate="pulse" type="button">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;View Project&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</button>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="d-flex flex-column flex-lg-row">
-                        <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"></div>
-                        <div class="py-4 py-lg-0 px-lg-4" style="width: 373.712px;">
-                            <h4>Game Dashboard</h4>
-                            <p><br>Game Analysis &amp; Prediciton Dashboard<br><br></p><button class="btn btn-primary" type="button">View Project</button>
+            </div>
+            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3" style="border-radius: 20px;">
+                <div class="col d-inline-flex" style="border-radius: 13px;padding: 24px;">
+                    <div style="border-radius: 9px;"><img class="rounded img-fluid d-block w-100 fit-cover" data-bss-hover-animate="pulse" style="height: 291px;border-top-left-radius: 23px;border-top-right-radius: 38px;" src="assets/img/assets/Firefly%20Student%20Management%20Stystem%20Dashboard%20Blue%20Mode%20UI%2086912.jpg" width="356" height="200">
+                        <div class="py-4" style="background: #ffffff;border-radius: -61px;border-bottom-right-radius: 30px;border-bottom-left-radius: 30px;text-align: center;font-family: Baumans, serif;">
+                            <h4 style="font-family: Baumans, serif;">Student Mode</h4>
+                            <p>"Student Mode" is a comprehensive Student Management System that combines a user-friendly website and Android app. It offers features such as attendance tracking, grade monitoring, and communication channels for seamless student administration.</p><button class="btn btn-primary" data-bss-hover-animate="pulse" type="button">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;View Project&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="border-radius: 13px;padding: 24px;">
+                    <div style="border-radius: 9px;"><img class="rounded img-fluid d-block w-100 fit-cover" data-bss-hover-animate="pulse" style="height: 291px;border-top-left-radius: 23px;border-top-right-radius: 38px;" src="assets/img/assets/Firefly%20Movie%20Cinema%20Entertainment%20Dashboard%20UI%2094684.jpg" width="356" height="200">
+                        <div class="py-4" style="background: #ffffff;border-radius: -61px;border-bottom-right-radius: 30px;border-bottom-left-radius: 30px;text-align: center;font-family: Baumans, serif;">
+                            <h4 style="font-family: Baumans, serif;">Netflix EDA</h4>
+                            <p>A personal project focused on Exploratory Data Analysis (EDA) of the Netflix dataset and building a movie recommender system. The project aims to analyze the data and provide personalized movie recommendations based on user preferences.</p><button class="btn btn-primary" data-bss-hover-animate="pulse" type="button">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;View Project&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="border-radius: 13px;padding: 24px;">
+                    <div style="border-radius: 9px;"><img class="rounded img-fluid d-block w-100 fit-cover" data-bss-hover-animate="pulse" style="height: 291px;border-top-left-radius: 23px;border-top-right-radius: 38px;" src="assets/img/assets/Firefly%202D%20CARTOON%20ANIMATION%20SOFTWARE%20GUI%20INTERFACE%20-UI%2027019.jpg" width="356" height="200">
+                        <div class="py-4" style="background: #ffffff;border-radius: -61px;border-bottom-right-radius: 30px;border-bottom-left-radius: 30px;text-align: center;font-family: Baumans, serif;">
+                            <h4 style="font-family: Baumans, serif;">Anim-Py</h4>
+                            <p>ANIM-PY is an innovative Python application with an intuitive GUI, enabling users to effortlessly create animations. It caters to both beginners and experts, offering a diverse toolbox and timeline for designing, editing, and exporting animations with ease.</p><button class="btn btn-primary" data-bss-hover-animate="pulse" type="button">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;View Project&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section></section>
+    <section id="Publications">
+        <h1 style="text-align: center;font-family: Baumans, serif;">Publications</h1>
+        <section class="py-4 py-xl-5">
+            <div class="container-fluid">
+                <div class="bg-dark border rounded border-0 border-dark overflow-hidden">
+                    <div class="row">
+                        <div class="col">
+                            <div class="text-white p-4 p-md-5">
+                                <h2 class="fw-bold text-white mb-3" style="text-align: left;font-size: 18px;font-family: Baumans, serif;text-shadow: 0px 0px 4px rgb(0,0,0);">🤖 A Comprehensive Guide to Learning Opportunities for Techies 📚 | by Neelanjan Chakraborty | May, 2023 | Medium</h2>
+                                <p class="mb-4">Are you a techie who wants to take their skills to the next level? Do you want to learn new technologies and frameworks, or maybe just get better at coding? If so, you’ve come to the right place! In…</p>
+                                <div class="my-3"><a class="btn btn-primary btn-lg me-2" role="button" href="https://medium.com/@NeelanjanChakraborty/a-comprehensive-guide-to-learning-opportunities-for-techies-cdc7742236f8">View Article on Medium</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 order-first order-md-last" style="min-height: 250px;height: 330px;"><img class="w-100 h-100 fit-cover" src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*zFSdPiBdMpzQaL0rD7WyjA.jpeg" style="display: inline-block;overflow: auto;position: relative;padding-left: 0px;" width="558" height="558"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-4 py-xl-5">
+            <div class="container-fluid">
+                <div class="bg-dark border rounded border-0 border-dark overflow-hidden">
+                    <div class="row">
+                        <div class="col">
+                            <div class="text-white p-4 p-md-5">
+                                <h2 class="fw-bold text-white mb-3" style="text-align: left;font-size: 18px;font-family: Baumans, serif;text-shadow: 0px 0px 4px rgb(0,0,0);">🤖🚜🌾 Boost Your Agriculture with AI-Powered Farm Automation 🌾🚜🤖 | by Neelanjan Chakraborty | Medium</h2>
+                                <p class="mb-4">The use of AI technology in agriculture is becoming increasingly popular as farmers look for ways to improve crop yields and optimize resource usage. AI-powered farm automation is a powerful tool…</p>
+                                <div class="my-3"><a class="btn btn-primary btn-lg me-2" role="button" href="https://medium.com/@NeelanjanChakraborty/ai-powered-farm-automation-4745ebd49e6e">View Article on Medium</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 order-first order-md-last" style="min-height: 250px;height: 330px;"><img class="w-100 h-100 fit-cover" src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*m_vwc-BbwSlGc37_F0Pkrg.png" style="display: inline-block;overflow: auto;position: relative;padding-left: 0px;" width="558" height="558"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-4 py-xl-5">
+            <div class="container-fluid">
+                <div class="bg-dark border rounded border-0 border-dark overflow-hidden">
+                    <div class="row">
+                        <div class="col">
+                            <div class="text-white p-4 p-md-5">
+                                <h2 class="fw-bold text-white mb-3" style="text-align: left;font-size: 18px;font-family: Baumans, serif;text-shadow: 0px 0px 4px rgb(0,0,0);">Revolutionizing India’s Economy: How Generative AI is Driving Innovation and Growth | by Neelanjan Chakraborty | Medium</h2>
+                                <p class="mb-4">Generative AI is AI that creates substance such as pictures, recordings, and writings that are undefined from those made by people. With the accessibility of expansive datasets and effective…</p>
+                                <div class="my-3"><a class="btn btn-primary btn-lg me-2" role="button" href="https://medium.com/@NeelanjanChakraborty/revolutionizing-indias-economy-how-generative-ai-is-driving-innovation-and-growth-f1b893b63ab5">View Article on Medium</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 order-first order-md-last" style="min-height: 250px;height: 330px;"><img class="w-100 h-100 fit-cover" src="assets/img/assets/0_ZfxjJDPEAnsnnniM.jpg" style="display: inline-block;overflow: auto;position: relative;padding-left: 0px;" width="558" height="558"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 footer-navigation">
+                <h3><a href="#" style="font-family: 'Beau Rivage', serif;">Neelanjan&nbsp;<span style="color: rgb(255, 255, 255);">Chakraborty</span></a></h3>
+                <p class="links"><a href="#header">Banner</a><strong> · </strong><a href="#AboutMe">About Me</a><strong> · </strong><a href="#Skill">Skills</a><strong> · </strong><a href="#Projects">Projects</a><strong> · </strong><a href="#Publications">Publications</a><strong> · </strong><a href="#Certifications">Certifications</a></p>
+                <p class="company-name" style="font-size: 22px;">Made with&nbsp;&nbsp;❤️ by Neelanjan Chakraborty</p>
+            </div>
+            <div class="col-sm-6 col-md-4 footer-contacts">
+                <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                    <p><span class="new-line-span">Kalaikunda,Paschim Midnapur</span> ,West Bengal, India</p>
+                </div>
+                <div style="font-family: Baumans, serif;"><i class="fa fa-phone footer-contacts-icon"></i>
+                    <p class="footer-center-info email text-start"> +91 86173 52997</p>
+                </div>
+                <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                    <p> <a href="#" target="_blank">neelanjanchakraborty231@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="col-md-4 footer-about" style="text-align: center;text-shadow: 0px 0px 5px;">
+                <h4 style="font-family: Baumans, serif;font-style: italic;">Feel Free to Reach Me Out</h4>
+                <div class="social-links social-icons"><a href="https://www.instagram.com/n.e_e.l/"><i class="fa fa-instagram"></i></a><a href="https://twitter.com/NeelanjanChakr7"><i class="fa fa-twitter" style="font-size: 20px;"></i></a><a href="https://www.linkedin.com/in/neelanjanchakraborty/"><i class="fa fa-linkedin"></i></a><a href="https://www.facebook.com/neelanjanchakraborty.1/"><i class="fa fa-facebook"></i></a><a href="https://github.com/Neelanjan-chakraborty"><i class="fa fa-github"></i></a></div>
+            </div>
+        </div>
+    </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/stylish-portfolio.js"></script>
     <script src="assets/js/Lightbox-Gallery-No-Gutters-baguetteBox.min.js"></script>
     <script src="assets/js/Lightbox-Gallery-No-Gutters-Lightbox-Gallery.js"></script>
     <script src="assets/js/Simple-Slider-swiper-bundle.min.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
+    <script src="assets/js/Skill-skill.js"></script>
+    <script src="assets/js/Skill-wow.js"></script>
+    <script src="assets/js/typing.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/Fixed-navbar-starting-with-transparency-script.js"></script>
 </body>
 
 </html>
