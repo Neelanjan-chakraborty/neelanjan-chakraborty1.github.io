@@ -1,0 +1,42 @@
+.skill-logo {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 15%;
+  transition: .5s;
+}
+
+.skill-badge {
+  border-radius: 15%;
+  color: #666;
+  transition: .5s;
+  margin: auto;
+  scale: 115%;
+}
+
+.skill-badge .skill-logo::before {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  background: #002fff;
+  transition: .5s;
+  z-index: -1;
+}
+
+.skill-badge .skill-logo:hover::before {
+  box-shadow: 0 0 15px #001aff;
+}
+
+.skill-badge:hover {
+  color: #003cff;
+  box-shadow: 0 0 5px #101cff;
+  text-shadow: 0 0 5px #1024ff;
+}
+
+img {
+}
+
+.saturate {
+  filter: saturate(3);
+}
+
